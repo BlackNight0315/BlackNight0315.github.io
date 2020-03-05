@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+	<style>
+		@media all and (max-width: 1520px){
+			#warnning_title{
+				position: fixed;
+				left: 50%;
+				top: 50px;
+				opacity: 1;
+				text-align: center;
+				transform: translate(-50%,-50%);
+				padding: 10px;
+				width: 350px;
+				border-radius: 150px;
+				background: indianred;
+				color: white;
+			}
+		}
+		@media all and (min-width: 1520px){
+			#warnning_title{
+				position: fixed;
+				left: 50%;
+				top: 50px;
+				opacity: 0;
+				text-align: center;
+				transform: translate(-50%,-50%);
+				padding: 10px;
+				width: 350px;
+				border-radius: 150px;
+				background: indianred;
+				color: white;
+			}
+		}
+		html,body{
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			-webkit-user-select:none;
+			-moz-user-select:none;
+			-ms-user-select:none;
+			user-select:none;
+		}
+	</style>
+    <head>
+        <title>ANIMATION LAB</title>
+        <!-CSS>
+        <link rel="stylesheet" type="text/css" href="css/fontStyle.css">
+        <link rel="stylesheet" type="text/css" href="css/page.css">
+    </head>
+    <body>
+		<!-TITLE SECTION>
+		<div class="section">
+			<div class="title_section">
+				<!-TITLE>
+				<div class="title">
+					<span class="text-wrapper">
+						<span class="letters letters-1">Hi</span>
+					</span>
+					<span class="text-wrapper">
+						<span class="letters letters-2">This is a website</span>
+					</span>
+					<span class="text-wrapper">
+						<span class="letter letter-3">:p</span>
+					</span>
+				</div>
+				<!-DESCRIPTION>
+				<div class="text" onmouseover="hoverContentRight(this)" onmouseout="outContentRight(this)" style="font-size: 30px;">ANIMATION LAB</div>
+				<div class="text" onmouseover="hoverContentRight(this)" onmouseout="outContentRight(this)" style=" bottom:30px;">HTML + CSS + JAVASCRIPT</div>
+				<!-ANIMATIONBLOCK>
+				<div style="position: absolute; bottom: 90px; left:50px;">
+					<div class="animation_block"></div>
+					<div class="animation_block"></div>
+					<div class="animation_block"></div>
+					<div class="animation_block"></div>
+					<div class="animation_block"></div>
+					<div class="animation_block"></div>
+					<div class="animation_block"></div>
+					<div class="animation_block"></div>
+					<div class="animation_block"></div>
+					<div class="animation_block"></div>
+					<div class="animation_block"></div>
+					<div class="animation_block"></div>
+					<div class="animation_block"></div>
+					<div class="animation_block"></div>
+					<div class="animation_block"></div>
+				</div>
+			</div>
+		</div>
+		<!-PROJECT 01 SECTION>
+		<div class="section">
+			<div class="movingElement_section">
+				<div class="animation_ball"></div>
+				<div class="animation_ball"></div>
+				<div class="animation_ball"></div>
+				<div class="animation_ball"></div>
+				<div class="animation_ball"></div>
+				<div class="animation_ball"></div>
+				<div class="animation_ball"></div>
+				<div class="animation_ball"></div>
+				<div class="animation_ball"></div>
+			</div>
+			<!-DESCRIPTION>
+			<div class="description" style="color: #2e2e2e;">MOVING AROUND</div>
+		</div>
+		<!-PROJECT 02 SECTION>
+		<div class="section">
+			<div class="grid_section">
+				<div style="position: absolute; transform: translate(-50%,-50%); left: 50%; top: 50%; width:520px">
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+					<div class="grid_block"></div>
+				</div>
+				<!-DESCRIPTION>
+			<div class="description" style="color: white;">WAVING</div>
+			</div>
+		</div>
+		<!-ABOUT SECTION>
+		<div class="section" style="height:200px; background:#2e2e2e">
+			<div style="position: absolute;left: 50%; top: 80px; transform: translate(-50%,-50%); color:white">
+				<span style="font-size: 50px; float: left" onmouseover="hoverContentLeft(this)" onmouseout="outContentLeft(this)">ABOUT THIS PAGE&nbsp</span>
+				<span style="font-size: 18px; float: left; margin-top:5px" onmouseover="hoverContentRight(this)" onmouseout="outContentRight(this)">LIBRARY USING anime.js<br>THIS IS AN ANIMATION TESTING PAGE</span>
+			</div>
+			<div style="position: absolute; top: 120px; left:50%; transform: translate(-50%,-50%); color:white">
+				<span>MADE WITH HTML + CSS + JAVASCRIPT</span>
+			</div>
+		</div>
+		<p id="warnning_title" class="font_bold">SCREEN WIDTH IS NOT COMPLETELY SUPPORTED</p>
+		<!-AnimationBlock>
+		<!-MENU>
+		<div class="menu">
+			<div class="menu_content">
+				<span style="font-size: 40px">HELLO WEBSITE</span>
+				<span style="font-size: 14px"><br>ANIMATION LAB</span>
+			</div>
+			<div class="menu_content">
+				<span style="font-size: 40px">#1 MOVING AROUND</span>
+				<span style="font-size: 14px"><br>MOVING IN A SMOOTH WAY</span>
+			</div>
+			<div class="menu_content">
+				<span style="font-size: 40px">#2 WAVING</span>
+				<span style="font-size: 14px"><br>ANIMATED GRID</span>
+			</div>
+			<div class="menu_content">
+				<span style="font-size: 40px">ABOUT</span>
+				<span style="font-size: 14px"><br>ANIMATION TESTING PAGE<br>MADE WITH HTML + CSS + JAVASCRIPT</span>
+			</div>
+		</div>
+		<div class="menu_button" onmouseover="hoverMenuContent(this)" onmouseout="outMenuContent(this)" onmousedown="foldMenu()">
+			<div class="line" style="top: 35%; left: 50%;"></div>
+			<div class="line" style="top: 50%; left: 50%;"></div>
+			<div class="line" style="top: 65%; left: 50%;"></div>
+		</div>
+        <!-SCRIPT>
+        <script src="lib/anime.min.js"></script>
+		<script src="javascripts/pageLoading.js"></script>
+		<script src="javascripts/menu.js"></script>
+        <script src="javascripts/titleAnimation.js"></script>
+		<script src="javascripts/blockAnimation.js"></script>
+		<script src="javascripts/ballAnimation.js"></script>
+		<script src="javascripts/gridAnimation.js"></script>
+		<script src="javascripts/hoverContent.js"></script>
+    </body>
+</html>
