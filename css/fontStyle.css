@@ -1,12 +1,12 @@
 @font-face {
     font-family: bahnschrift boldSemi condensed;
-    src: url('assets/bahnschrift.ttf');
+    src: url('../assets/bahnschrift.ttf');
     font-stretch: semi-condensed;
     font-weight: bold;
 }
 @font-face {
     font-family: bahnschrift semi condensed;
-    src: url('assets/bahnschrift.ttf');
+    src: url('../assets/bahnschrift.ttf');
     font-stretch: semi-condensed;
     font-weight: normal;
 }
