@@ -32,7 +32,7 @@
 }
 
 .section .grid_section {
-	background: #85b8cb;
+	background: #70b6d0;
 	width: 100%;
 	height: 100%;
 	margin: 0;
@@ -87,7 +87,15 @@
 	height: 30px;
 	background: white;
 	float: left;
-	margin: 5px;
+	margin: 10px;
+}
+
+.random_block{
+	position: absolute;
+	transform: translate(-50%,-50%);
+	width: 50px;
+	height: 50px;
+	background: #86cea5;
 }
 
 .menu {
@@ -104,7 +112,7 @@
 	color: #2e2e2e;
 	white-space: nowrap;
 	position: relative;
-	margin: 20px;
+	padding: 20px;
 }
 
 .menu_button {
@@ -123,4 +131,51 @@
 	width: 32px;
 	height: 5px;
 	border-radius: 5%;
+}
+
+.scroll {
+	position: absolute;
+	left: 50%;
+	width: 35px;
+	height: 35px;
+	bottom: 130px;
+}
+
+.link_content{
+	position: relative;
+	float: left;
+	color: white;
+	margin: 30px;
+	font-size: 20px;
+}
+
+a {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover {
+  color: white;
+}
+
+a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }

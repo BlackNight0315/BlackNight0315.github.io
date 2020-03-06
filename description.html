@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<style>
+		@media all and (max-width: 1520px){
+			#warnning_title{
+				position: fixed;
+				left: 50%;
+				top: 50px;
+				opacity: 1;
+				text-align: center;
+				transform: translate(-50%,-50%);
+				padding: 10px;
+				width: 350px;
+				border-radius: 150px;
+				background: indianred;
+				color: white;
+			}
+		}
+		@media all and (min-width: 1520px){
+			#warnning_title{
+				position: fixed;
+				left: 50%;
+				top: 50px;
+				opacity: 0;
+				text-align: center;
+				transform: translate(-50%,-50%);
+				padding: 10px;
+				width: 350px;
+				border-radius: 150px;
+				background: indianred;
+				color: white;
+			}
+		}
+		html,body{
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			padding: 0;
+		}
+	</style>
+	<head>
+		<title>DESCRIPTION</title>
+        <!-CSS>
+        <link rel="stylesheet" type="text/css" href="css/fontStyle.css">
+        <link rel="stylesheet" type="text/css" href="css/page.css">
+	</head>
+	<body>
+		<div class="section">
+			<div class="title_section" style="background: #70b6d0">
+				<!-GUIDE>
+				<div style="position: absolute">
+					<a class="link_content" href="index.html">HOME</a>
+					<a class="link_content" href="description.html">DESCRIPTION</a>
+					<a class="link_content" href="https://github.com/BlackNight0315/BlackNight0315.github.io">LINK TO SOURCE CODE</a>
+				</div>
+				<div style="position: absolute; left: 10%; top: 100px; color: white">
+					<h2>&#9679; THE REASON WHY I MADE THIS WEBSITE</h2>
+					<p style="font-size: 18px">Making animation is a quite cool thing, and I very like it</p>
+					<p style="font-size: 18px">Especially when using programming to do it, unlike using animation tools, it is very interesting and also challenging</p>
+					<p style="font-size: 18px">It can achieve many unusual effects</p>
+					<br>
+					<h2>&#9679; THE DIFFICULTIES I FACED DURING MAKING WEBSITE </h2>
+					<p style="font-size: 18px">The biggest problem is the element's position</p>
+					<p style="font-size: 18px">It is really hard to figure out when to use absolute or relative properties, that is what bothers me the most</p>
+					<p style="font-size: 18px">Other is Incorrect syntax, I don't know how many errors I encountered during making website :c</p>
+					<br>
+					<h2>&#9679; ABOUT THE PAGE</h2>
+					<p style="font-size: 18px">All animations are experimental, not the best effect</p>
+				</div>
+			</div>
+		</div>
+		<p id="warnning_title" class="font_bold">SCREEN WIDTH IS NOT COMPLETELY SUPPORTED</p>
+		<!-SCRIPT>
+        <script src="lib/anime.min.js"></script>
+		<script src="javascripts/pageLoading.js"></script>
+	</body>
+</html>
