@@ -41,6 +41,7 @@
 
 .section .description {
 	position: absolute;
+	text-align: center;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	bottom: 100px;
@@ -48,19 +49,19 @@
 }
 
 .section .title_section .title{
-	position: relative;
-	top: 50%;
-	text-align: center;
-	font-size: 200px;
+	width: inherit;
+	height: inherit;
+	font-size: 18em;
 }
 .section .title_section .title .letter {
 	display: inline-block;
 }
 
 .section .title_section .title .text-wrapper {
-	white-space: nowrap;
+	width: inherit;
 	position: absolute;
-	transform: translate(-50%, -50%);
+	text-align: center;
+	transform: translate(-50%,-50%);
 	top: 50%;
 	left: 50%;
 	color: white;
@@ -103,7 +104,7 @@
 	top: 0;
 	right: 0;
 	background: white;
-	width: 0px;
+	width: 0%;
 	height: 100%;
 }
 
@@ -118,7 +119,7 @@
 .menu_button {
 	position: fixed;
 	bottom: 5%;
-	right: 2%;
+	right: 5%;
 	background: white;
 	width: 70px;
 	height: 70px;

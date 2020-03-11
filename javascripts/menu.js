@@ -10,7 +10,7 @@ function foldMenu(){
 	if(foldState == false){
 		anime({
 			targets: '.menu',
-			width: '20%',
+			width: '30%',
 			opacity: 1,
 			easing: 'easeInOutExpo'
 		})
@@ -26,7 +26,7 @@ function foldMenu(){
 		})
 		anime({
 			targets: '.section',
-			width: '80%',
+			width: '70%',
 			easing: 'easeInOutExpo'
 		})
 	}
